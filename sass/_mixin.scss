@@ -1,0 +1,8 @@
+@mixin caja-flex($principal, $cruzado,$direccion, $wrap) {
+    display: flex;
+    justify-content: $principal;
+    align-content: $cruzado;
+    align-items: $cruzado;
+    flex-direction: $direccion;
+    flex-wrap: $wrap;
+}

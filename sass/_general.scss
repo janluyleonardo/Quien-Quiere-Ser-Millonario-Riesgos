@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100vw  ;
+    height: 100vh;
+    background:linear-gradient($color-fondo1,$color-fondo2) no-repeat;
+    overflow: hidden;
+    
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: 20px;
+    background: $color-btn;
+    box-shadow: -1px -1px 5px #fff,
+                2px 2px 20px rgb(31, 30, 30),    
+                inset  0px 0px 0px #fff,
+                inset 0px 0px 0px rgb(31, 30, 30);;
+    transition: all 300ms ease;
+ 
+
+    &:active{
+        transform: scale(0.9);
+    }
+
+          
+}
+
+.nosonar{
+    background-color: gray;
+}
+
+.header{
+    width:100%;
+    height: 15%;
+    @include caja-flex(space-between,center,row,wrap);
+    
+    .info{
+        @extend .btn;
+        font-size: 40px;
+        padding: 0;
+        border: none;    
+        font-weight: lighter;    
+    }
+
+    .denero{
+        padding: 5%;
+    }
+
+}
+
+
+.principal{
+    width: 100%;
+    height: 75%;
+    @include caja-flex(space-evenly,center,column,nowrap);
+   
+    .logo{
+        height: 65vh;
+        width:65vh;
+        
+                     
+    }
+
+    .icon-exit{
+        font-size: 30px;
+        
+                     
+    }
+    
+}
+
+.informacion{
+    z-index: 300;
+    background: rgba(0,0,0,0.9);
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+   
+    
+    .cont{
+        margin: 5%;
+    }
+    
+
+    span{
+        position: absolute;
+        right: 0;
+        padding: 0;
+        margin: 1%;
+        cursor: pointer;
+        background: $color-btn;
+        font-size: 25px;
+        border-radius: 50px;
+    }
+
+    h1, h3, p{
+        margin: 5%;
+        font-size: 200%;
+        
+    }
+
+    img{
+        width: 20%;
+        height: 20%;
+        min-width: 100px;
+        min-height: 100px;
+        
+    }
+
+    transition: 0.7s all ease-in-out;
+   
+     
+
+}
+
+.nomostrar{
+    transform: translate(-200%, -200%);
+    
+}
+
+.desaparecer{
+    transition: 1s all ease-in;
+    transform: scale(0);
+}
+
+.animacionLogo{
+    animation-name: animacion1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    
+   
+}
+
+
+.rendirse{
+   position: fixed;
+   right: 0;
+   bottom: 0;
+    
+   
+}
+
+

@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIÉN QUIERE SER MILLONARIO</title>
+    <link rel="stylesheet" href="fuentes/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="medios/img/logo.png">
+</head>
+<body>
+    <audio src="medios/sonidos/Quien quiere ser millonario INICIO.mp3" id="inicio" autoplay loop></audio>
+    <audio src="medios/sonidos/respuesta correcta.mp3" id="m_correcto"></audio>
+    <audio src="medios/sonidos/respuesta incorrecta.mp3" id="m_perdiste"></audio>
+    <audio src="medios/sonidos/press_buttom.mp3" id="boton"></audio>
+    <div class="informacion nomostrar" id="informacion">
+        <span id="cerrar" title="Cerrar" class="icon-cancel-circle"></span>
+        <div class="cont">
+            <h1>QUIEN QUIERE SER MILLONARIO</h1>
+            <img src="medios/img/diplomado.png" alt="diplomado">
+            <h2>Proyecto Font-End</h2>
+            <p>Aplicación editada y mantenida por MORJAN-DEV</p>
+        </div>
+    </div>
+    <div class="ventana" id="ventana">
+        <div class="llamar" id="llamar">
+            <i class="icon-cool2"></i>
+            <p>Creo que la respuesta correcta es:</p>
+            <p id="correcto">fhhg</p>
+        </div>
+        <div class="audiencia" id="audiencia">
+            <i class="icon-users"></i>
+            <p>La audiencia opina que:</p>
+            <span>A) <progress class="progreso" max="100" value="10"></progress></span>
+            <span>B) <progress class="progreso" max="100" value="10"></progress></span>
+            <span>C) <progress class="progreso" max="100" value="10"></progress></span>
+            <span>D) <progress class="progreso" max="100" value="10"></progress> </span>
+        </div>
+        <div class="correcta" id="resp_correcta">
+            <i class="icon-checkmark"></i>
+            <p>¡RESPUESTA CORRECTA!</p>
+            <p id="pasaste"> </p>
+        </div>
+        <i class="seguir" id="seguir">Continuar</i>
+    </div>
+    <div class="ventana ventana2" id="ventana2">
+        <img id="img_vent" src="medios/img/1078718.png" alt="">
+        <p class="victoria" id="victoria">¡FELICIDADES HAZ GANADO!</p>
+        <P class="ganado" id="ganado">Te llevas a casa $ </P>
+        <i class="seguir" id="terminar">Terminar juego</i>
+    </div>
+    <div class="contenedor">
+        <div class="header">
+            <div>
+                <a href="#" class="info icon-info" id="info" title="Información del juego"></a>
+            </div>
+            <div>
+                <a href="#" class="btn dinero" title="Ganancias acumuladas cada vez se superan 5 niveles de juego">$<span id="dinero">0</span></a>
+                <a href="#" class="btn silenciar icon-volume-high" id="silenciar" title="Silenciar"></a>
+            </div>
+        </div>
+        <div class="principal">
+            <img src="medios/img/logo.png" alt="logo" class="logo" id="logo">
+            <a href="#" class="btn jugar" id="jugar" title="Comenzar juego">Comenzar juego</a>
+            <div class="pregunta_zona" id="pregunta-zona">
+                <div class="tiempo">
+                    <span id="tiempo">
+                        <p id="timer">60</p>
+                    </span>
+                    <div class="comodin" id="comodin">
+                        <i class="icon-phone comodines" title="Llamar a un amigo"></i>
+                        <i class="icon-users comodines" title="Acudir a la audiencia"></i>
+                        <i class="mitad comodines" title="50/50">50</i>
+                    </div>
+                </div>
+                <div class="cont_pregunta">
+                    <div class="preg_borde">
+                        <div class="preg" id="preg">
+                            <p>PREGUNTA</p>
+                        </div>
+                    </div>
+                    <div class="respuestas">
+                        <div class="resp_borde">
+                            <div class="resp">
+                                <span>A- </span>
+                                <p class="respuesta"></p>
+                            </div>
+                        </div>
+                        <div class="resp_borde">
+                            <div class="resp">
+                                <span>B- </span>
+                                <p class="respuesta"></p>
+                            </div>
+                        </div>
+                        <div class="resp_borde">
+                            <div class="resp">
+                                <span>C- </span>
+                                <p class="respuesta"></p>
+                            </div>
+                        </div>
+                        <div class="resp_borde">
+                            <div class="resp">
+                                <span>D- </span>
+                                <p class="respuesta"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rendirse btn " id="rendirse"> <i class="icon-exit"></i> Me rindo</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/variable.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/preg.js"></script>
+</body>
+
+</html>

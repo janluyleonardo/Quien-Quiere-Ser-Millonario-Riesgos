@@ -1,0 +1,136 @@
+.pregunta_zona{
+    width: 100%;
+    height: 85%;
+    @include caja-flex(space-evenly,center,row,wrap);
+    display:none;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+   
+
+    .tiempo{
+        width: 35%;
+        height: 100%;
+             
+        @include caja-flex(space-evenly,center,column,wrap);
+        
+        span{
+            
+            width: 80%;
+            height: 80%;
+            background-image: url("../medios/img/logo.png");
+            background-size: contain ;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-size:18vw ;
+            color: white;
+            font-weight: bold;
+            @include caja-flex(center,center,row,wrap);
+            
+            
+            }
+    }
+
+    .cont_pregunta{
+        width: 60%;
+        height: 100%;
+        margin: 1%;
+        
+    }
+
+    .comodin{
+        width: 95%;
+        height: 20%;
+        @include caja-flex(center,center,row,wrap);
+        
+
+        i{  
+            @extend .btn;
+            font-size: 50px;
+            border: 2px solid white;
+            color: white;
+            display: inline-block;
+            width: auto;
+            height: auto;
+            margin: 3px;
+            cursor: pointer;
+            
+           
+
+        }
+
+
+        
+
+    }
+}
+
+
+
+.comenzar{
+    display: flex;
+    animation-name: animacion2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+.cont_pregunta{
+    width: 100%;
+    height: 100%;
+    @include caja-flex(center,center,column,wrap);
+
+    .preg_borde,
+    .resp_borde {
+        background:gold;
+        width: 90%;
+        margin: 3%;
+        text-align: center;
+        
+        @include caja-flex(center,center,column,wrap);
+        clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 99%, 0 50%, 0 50%);
+    }
+
+    .preg_borde{
+        height: 20%;
+       margin-bottom:10% ;
+    }
+
+    .respuestas{
+        width: 95%;
+        height: 40%;
+        @include caja-flex(center,center,row,wrap);
+        
+    }
+
+    .resp_borde{
+        width: 40%;
+        height: 25%;
+        
+        min-width: 180px;
+       
+    }
+
+    .resp,
+    .preg{
+        clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 99%, 0 50%, 0 50%);
+        background-color: $color-fondo2;
+        width: 90%;
+        height: 85%;
+        color: white;
+        @include caja-flex(center,center,column,wrap);
+        font-size: 18px;
+    }
+
+    .resp{
+       @extend .btn;
+       border: none;
+       cursor: pointer;
+
+       
+       
+    }
+
+}
+
+
+

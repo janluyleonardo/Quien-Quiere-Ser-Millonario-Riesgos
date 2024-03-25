@@ -1,0 +1,102 @@
+.ventana{
+    z-index: 300;
+    background: rgb(73, 1, 121);
+    border: 6px solid gold;
+    border-radius: 10%;
+    color: white;
+    width: 40vw;
+    height: 40vw;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    min-width: 400px;
+    min-height: 400px;
+    font-size: 40px;
+    @include caja-flex(center,center,column,wrap);
+    transition: 0.7s all ease-in-out;
+    transform: scale(0);
+    
+
+    .seguir{
+        @extend .btn;
+        cursor: pointer;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    i{
+        font-size: 100px;
+        margin: 2%;
+    }
+
+    span{
+        display: block;
+        text-align: left;
+    }
+
+    .progreso{
+        width: 50%;   
+        height: 17px;   
+               
+        -webkit-appearance: none;
+        
+        &::-webkit-progress-value{
+        background-color: gold;
+    }
+
+    &::-webkit-progress-bar{
+        background-color:transparent ;
+        border: 2px solid gold;
+    }
+
+    }
+
+    #correcto{
+        margin: 1%;
+        color: gold;
+    }
+    
+
+    .icon-checkmark{
+        color: rgb(45, 240, 6);
+    }
+
+    
+    .llamar,
+    .audiencia{
+        display: none;
+       
+    }
+
+    .correcta{
+        display: none;
+    }
+
+    
+}
+
+
+.ventana2{
+         
+    img{
+        display: block;
+        width: 35%;
+        height: 30%;
+        
+        
+    }
+    p{
+        padding: 1%;
+        margin: 1%;
+        font-size: 25px;
+    }
+
+    .victoria{
+      display: none;
+    }
+}
