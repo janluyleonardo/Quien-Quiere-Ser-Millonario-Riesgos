@@ -20,7 +20,7 @@ uno = new preg(
 );
 // dos=new preg("Una persona famelica esta:","Hambrienta","Furiosa","Asustada","Irritable");
 dos = new preg(
-    "¿ cuáles son los protocolos que se socializan en la unidad operativa?",
+    "¿ Cuáles son los protocolos que se socializan en la unidad operativa?",
     "Ingreso y salida de niños, ingreso de personas ajenas, permanencia en zonas recreativas, Desarrollo de salidas pedagógicas, extravió y muerte.",
     "Ingreso y salida del personal, ingreso de familias.",
     "Protocolo para recibir, saludar, escuchar y responder a la comunidad educativa.",
@@ -45,7 +45,7 @@ cuatro = new preg(
 // cinco=new preg("¿Cual de estos instrumentos mide la densidad de los aceites?","Oleómetro","Micrómetro","Dinamómetro","Holometro");
 cinco = new preg(
     "¿Qué materiales son indispensables en LAS SALIDAS PEDAGOGICAS?",
-    "Botiquín tipo A, carpeta con documentación de las niñas y niños que incluya: Autorización firmada por la familia, listado de asistentes, carné de identificación, formato de reporte de accidentalidad y soporte de póliza.",
+    "Botiquín T.A, Documentos de los niños, Autorización firmada por la flia, listado de asistencia, carné, formato R. accidentalidad y soporte de póliza.",
     "Botiquín, carpeta, onces y carné de identificación.",
     "Lista de asistencia, soporte de póliza y autorización de las familias. ",
     "Ninguna es correcta."
@@ -61,7 +61,7 @@ seis = new preg(
 // siete=new preg("¿Quien dirigió la película El Padrino en 1972?","Francis Ford Copolla","Federico Fellini","Roman Polanski","Franco Zeffirelli");
 siete = new preg(
     "¿Cuál es el objetivo del protocolo ZONAS RECREATIVAS?",
-    "Dar uso apropiado a las zonas recreativas cumpliendo al protocolo de bioseguridad y normas establecidas con el fin de minimizar los posibles riesgos de accidentalidad a los que pueden ser expuestos las niñas y niños.",
+    "Dar uso apropiado, cumpliendo con las normas establecidas con el fin de minimizar los riesgos de accidentalidad.",
     "Brindar seguridad a las niñas y niños en espacios amplios como zonas verdes del jardín.",
     "Jugar con las niñas y niños de manera libre, espontanea dentro de la institución educativa .",
     "Todas las anteriores."
@@ -101,16 +101,16 @@ once = new preg(
 // doce=new preg("Las Vegas es una ciudad estadounidense que queda en:","Nevada"," Oklahoma","Arizona","Colorado");
 doce = new preg(
     "Durante la prestación del servicio se acerca un acudiente a retirar a un menor de la unidad operativa, pero este no cuenta con identificación (cédula o carné del jardín) que medidas se debe tomar frente a dicha situación.",
-    "Reporto la situación de inmediato a la administradora del jardín, así mismo se explica al acudiente que no se realiza entrega del menor sin la debida identificación solicitando los documentos acordes para el retiro del niño o niña del jardín, dejando por escrito la situación.",
+    "Reporto a la administradora, se explica al acudiente que debe traer documento, dejando por escrito la situación.",
     "Todas las respuestas son correctas.",
     "Le colaboro al acudiente por que la conozco, acompañándola hasta la puerta del jardín para que logre pasar los filtros de seguridad.",
     "Se deja ingresar, realizando la novedad acorde para la entrega del menor."
 );
 // trece=new preg("¿Cual de estos animales es un rumiante?","La vaca","La ardilla","El caracol","El loro");
 trece = new preg(
-    "Una vez detectada la ausencia de la niña o el niño, se debe informar de inmediato a :",
-    "La administradora ",
-    "Los acudientes del menor ",
+    "Una vez detectada la ausencia de la niña o el niño, se debe informar de inmediato a:",
+    "La administradora",
+    "Los acudientes del menor",
     "La policía",
     "Ninguna de las anteriores "
 );
@@ -132,11 +132,11 @@ quince = new preg(
 );
 // diezyseis
 diezyseis = new preg(
-    "Durante el ingreso y salida ¿cuáles puedes ser los riesgos de extravío?",
-    "d.	Todas son correctas.",
-    "a.	Hacer entrega del niño o niña a una persona no autorizada por el padre para su retiro.",
-    "b.	No conocer los protocolos establecidos.",
-    "c.	No realizar conteo durante los traslados en la unidad operativa."
+    "Durante el ingreso y salida de las niñas y niños, ¿cuáles pueden ser los riesgos de extravío?",
+    "Todas son correctas.",
+    "Hacer entrega del niño o niña a una persona no autorizada por el padre para su retiro.",
+    "No conocer los protocolos establecidos.",
+    "No realizar conteo durante los traslados en la unidad operativa."
 );
 // diezysiete
 diezysiete = new preg(
@@ -149,16 +149,16 @@ diezysiete = new preg(
 // diezyocho
 diezyocho = new preg(
     "Durante la jornada ocurre una situación en particular con un niño o niña de la unidad operativa que está comprometiendo la vida del menor ¿Que debo hacer?",
-    "C.	Solicito el apoyo de la auxiliar de enfermería y/o docentes capacitadas en primeros auxilios.",
-    "A.	Me desmayo.",
-    "B.	Corro.",
-    "D.	Espero que la situación retorne a la normalidad por cuenta propia."
+    "Solicito el apoyo de la auxiliar de enfermería y/o docentes capacitadas en primeros auxilios.",
+    "Me desmayo.",
+    "Corro.",
+    "Espero que la situación retorne a la normalidad por cuenta propia."
 );
 // diezyocho
 diezyocho = new preg(
-    "¿Porque es importante conocer la historia social de los niños y niñas?",
+    "¿Porqué es importante conocer la historia social de los niños y niñas?",
     "Permiten a las maestras y al talento humano conocer aquellas limitaciones o situaciones particular que pueden poner en riesgo la vida de los niños y niñas.",
-    "Es importante conocer la historia de la familia para contarla a mis compañeras a modo de chisme.",
+    "Es importante conocer la historia de la familia para contarla a las compañeras a modo de chisme.",
     "No es un documento fundamental en la prestación del servicio.",
     "Ninguna de las anteriores."
 );
@@ -173,7 +173,7 @@ diezynueve = new preg(
 // veinte
 veinte = new preg(
     "Llega el niño o niña del fin semana sin el carné y con una contusión o hematoma al salón:",
-    "La maestra pregunta al acudiente que le sucedió, luego lo lleva hacia la zona de primeros auxilios para que lo revisen y de esta manera la enfermera haga la respectiva observación   en el formato de novedades.",
+    "La maestra pregunta al acudiente que le sucedió, luego lo lleva hacia la zona de primeros auxilios para que lo revisen y de esta manera la enfermera haga la respectiva novedad.",
     "La maestra pregunta al acudiente que le sucedió y posteriormente lo deja ingresar.",
     "La maestra pregunta al acudiente que le sucedió y adicional a esto lo escribe en la novedad.",
     "La maestra devuelve al acudiente junto con el niño o niña para traer el carné. "
@@ -188,8 +188,8 @@ veinte = new preg(
 );
 // veintiuno
 veintiuno = new preg(
-    "Un niño o niña es llevado después del horario establecido en varias ocasiones sin previa autorización de la administradora de la unidad operativa. ¿Qué hacer en este caso?",
-    "Más de 3 veces consecutivas se debe citar al padre o madre de familia con la psicóloga de la unidad operativa para hace la respectiva reflexión junto con el acta. ",
+    "Un niño o niña es llevado después del horario establecido en varias ocasiones sin previa autorización de la administradora. ¿Qué hacer en este caso?",
+    "Más de 3 veces consecutivas se debe citar al padre o madre de familia con la psicóloga para hacer la respectiva reflexión junto con el acta.",
     "Más de 3 veces consecutivas, la maestra hace la novedad escrita sugiriendo a la familia que no vuelva a ocurrir.",
     "Se deja pasar por alto la situación.",
     "Se activa ruta con ICBF por negligencia y maltrato."
@@ -197,10 +197,10 @@ veintiuno = new preg(
 // veintidos
 veintidos = new preg(
     "Es viernes y se debe hacer fumigación a la unidad operativa. ¿Qué se debe hacer al ingreso?",
-    "El guarda solicita la documentación correspondiente, registra los equipos o materiales en la minuta y el ingreso debe ser autorizado por la administradora.",
+    "El guarda solicita la documentación , registra los equipos, o material en la minuta y el ingreso lo autoriza la administradora.",
     "El guarda lleva de la mano a la persona hasta la administración del jardín para que no se pierda.",
     "El guarda pregunta a la persona cual es el procedimiento que va a realizar.",
-    "El guarda solicita la documentación correspondiente, registra los equipos o materiales en la minuta y el ingreso debe ser autorizado por la administradora."
+    "El guarda hace un recorrido con la persona para mostrarle el jardin"
 );
 // veintitres
 veintitres = new preg(
@@ -223,7 +223,7 @@ veinticinco = new preg(
     "¿Cuáles considera usted que serían los riesgos de permitir el ingreso a personas ajenas al jardín?",
     "Todas las opciones son correctas.",
     "Que el personal ajeno sufra un accidente o incidente.",
-    "Que le personal ajeno atente contra la seguridad e integridad de todos los que están dentro de la unidad operativa.",
+    "Que el personal ajeno atente contra la seguridad e integridad de todos los que están dentro de la unidad operativa.",
     "Que el personal ajeno dañe o hurte algún bien material de la institución."
 );
 const preguntas = [
